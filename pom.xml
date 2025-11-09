@@ -12,8 +12,7 @@
 
     <groupId>com.samardash</groupId>
     <artifactId>spring-lambda-mcp-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>1.0.0-SNAPSHOT</version>
 
     <name>spring-lambda-mcp-server</name>
     <description>Spring AI MCP Server with WebMVC SSE/Http transport</description>
