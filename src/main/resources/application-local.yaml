@@ -4,4 +4,5 @@ spring:
       server:
         protocol: STATELESS
 
-spring.profiles.active: local
+server:
+  port: 8081

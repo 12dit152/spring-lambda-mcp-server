@@ -27,15 +27,19 @@
         <lombok.version>1.18.42</lombok.version>
         <aws-serverless-java-container-springboot3.version>2.1.5</aws-serverless-java-container-springboot3.version>
         <aws-lambda-java-core.version>1.4.0</aws-lambda-java-core.version>
-        <spring-cloud-aws.version>3.4.0</spring-cloud-aws.version>
-        <spring.ai.version>1.1.0-RC1</spring.ai.version>
-        <logback.version>1.5.20</logback.version>
+        <spring-cloud-aws.version>3.4.1</spring-cloud-aws.version>
+        <spring.ai.version>1.1.0</spring.ai.version>
+        <logback.version>1.5.21</logback.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
 
         <dependency>
