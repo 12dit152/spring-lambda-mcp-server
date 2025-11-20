@@ -1,4 +1,4 @@
-package com.samardash.lambda.handler;
+package com.samardash.lambda;
 
 import com.amazonaws.serverless.proxy.model.AwsProxyRequest;
 import com.amazonaws.serverless.proxy.model.AwsProxyResponse;
@@ -6,7 +6,7 @@ import com.amazonaws.serverless.proxy.spring.SpringBootLambdaContainerHandler;
 import com.amazonaws.serverless.exceptions.ContainerInitializationException;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.samardash.lambda.Application;
+import com.samardash.Application;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
 

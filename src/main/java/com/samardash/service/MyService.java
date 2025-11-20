@@ -1,4 +1,4 @@
-package com.samardash.lambda.service;
+package com.samardash.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;

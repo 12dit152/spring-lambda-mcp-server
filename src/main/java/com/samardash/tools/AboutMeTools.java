@@ -1,6 +1,6 @@
-package com.samardash.lambda.tools;
+package com.samardash.tools;
 
-import com.samardash.lambda.service.MyService;
+import com.samardash.service.MyService;
 import lombok.AllArgsConstructor;
 import org.springaicommunity.mcp.annotation.McpTool;
 import org.springframework.stereotype.Service;
