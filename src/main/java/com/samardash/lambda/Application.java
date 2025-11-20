@@ -1,4 +1,4 @@
-package com.samardash.lamda;
+package com.samardash.lambda;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

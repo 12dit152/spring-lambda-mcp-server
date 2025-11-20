@@ -1,4 +1,4 @@
-package com.samardash.lamda.tools;
+package com.samardash.lambda.tools;
 
 import org.springaicommunity.mcp.annotation.McpTool;
 import org.springframework.stereotype.Service;

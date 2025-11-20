@@ -1,4 +1,4 @@
-package com.samardash.lamda.controller;
+package com.samardash.lambda.controller;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.MediaType;
