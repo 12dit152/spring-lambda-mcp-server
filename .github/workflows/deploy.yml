@@ -1,4 +1,4 @@
-name: Build and Upload JAR to S3 (OIDC), Deploy to Lambda
+name: Deploy MCP Server Stack
 
 on:
   push:
