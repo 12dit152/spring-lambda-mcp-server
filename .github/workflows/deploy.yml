@@ -54,7 +54,7 @@ jobs:
           sleep 10
           
           echo "Running Health Check on the new version..."
-          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://mcp.samardash.com/actuator/health)
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" https://mcp.samardash.com/)
           
           if [ "$HTTP_STATUS" -ne 200 ]; then
             echo "Health Check Failed! Status Code: $HTTP_STATUS"
