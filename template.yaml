@@ -27,6 +27,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: spring-lambda-mcp-server
+      Description: Spring AI MCP Server exposing tools over SSE/HTTP transport
       Architectures:
         - arm64
       CodeUri: target/spring-lambda-mcp-server-1.0.0-SNAPSHOT.jar
